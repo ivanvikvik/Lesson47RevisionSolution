@@ -13,7 +13,7 @@ void print_test(int* array, int size, double expected, string test_name) {
 	HANDLE h;
 	h = GetStdHandle(STD_OUTPUT_HANDLE);
 
-	double actual = calculate_arithmetical_mean_of_nonsero_elements(array, size);
+	double actual = calculate_arithmetical_mean_of_nonzero_elements(array, size);
 	bool result = actual == expected;
 
 	SetConsoleTextAttribute(h, (0 | 15));

@@ -1,1 +1,0 @@
-void count_local_min_and_max(int* array, int size, int* min_count, int* max_count);
