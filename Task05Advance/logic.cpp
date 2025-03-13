@@ -7,3 +7,7 @@
 // либо по возрастанию, либо по убыванию.
 
 #include "logic.h"
+
+void sort_in_range(int* array, int size, int start, int end, bool type) {
+
+}
